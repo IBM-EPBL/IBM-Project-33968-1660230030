@@ -1,0 +1,37 @@
+team id: PNT2022TMID10218
+
+
+ASSIGNMENT 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Images-From IBM Object storage</title>
+<script> window.watsonAssistantChatOptions = { integrationID: "1ffd4f24-451c-48dd9bee-af391b3bf291", // The ID of this integration. region: "au-syd", // The region your
+integration is hosted in. serviceInstanceID: "cd7b0e95-5d03-41ce-962c-35386646eb26", //
+The ID of your service instance.
+onLoad: function(instance) { instance.render(); }
+};
+setTimeout(function(){ const
+t=document.createElement('script')
+;
+t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+(window.watsonAssistantChatOptions.clientVersion || 'latest') +
+"/WatsonAssistantChatEntry.js"; document.head.appendChild(t);
+});
+</script>
+</head>
+<body>
+<h1>Images from IBM object storage</h1>
+<img src="https://images-h.s3.jp-tok.cloud-object-storage.appdomain.cloud/images%20(1).jpeg"
+alt="computer">
+<img src="https://images-h.s3.jp-tok.cloud-object-storage.appdomain.cloud/images%20(2).jpeg"
+alt="computer">
+<img src="https://images-h.s3.jp-tok.cloud-object-storage.appdomain.cloud/images%20(3).jpeg"
+alt="computer">
+<img src="https://images-h.s3.jp-tok.cloud-object-storage.appdomain.cloud/images%20(4).jpeg"
+alt="computer">
+<img src="https://images-h.s3.jp-tok.cloud-object-storage.appdomain.cloud/images.jpeg"
+alt="computer">
+</body>
+</html >
